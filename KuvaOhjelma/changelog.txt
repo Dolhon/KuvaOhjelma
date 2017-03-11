@@ -1,0 +1,112 @@
+﻿9.4.2014 - Version 1.0
+
+Notes:
+[x] Final testing with three different people (Windows 8 64bit)
+
+Added:
+[x] Shortcut E in fullscreen mode to select photo (selectedPhotos in MainWindow)
+[x] Resize window
+[x] Slider in resize window, can select image width (50-2000 pixels)
+[x] readme.txt done
+
+Fixes:
+[x] Clean unused and legacy code
+[x] Tweak ListBox index handling
+[x] Method changes for resize width parameters and new window
+[x] Clean comments
+[x] All newDir strings fixed "/" -> "\\"
+[x] ListBox index out of range (resize dialog this time)
+
+Time spent: 8h (4.4. - 9.4.2014)
+Time spent testing and fixing bugs: 4h
+Total time spent: 77h
+
+
+3.4.2014 - Version 0.8
+
+Added:
+[x] Resize selected photos with static width setting
+[x] JPG->PNG conversion
+[x] Show selected photos button
+
+Fixes:
+[x] Out of index (ListBox) bug again, while using resize/copy selected fixed
+
+Time spent: 4h (3.4.2014)
+Total time spent: 65h
+
+
+2.4.2014 - Version 0.7
+
+Added:
+[x] Custom key events for controlling listbox thumbnail view - left, right and space for select photos
+[x] Added FullScreenView
+[x] Added Esc, Enter, double click events to close FullScreenView
+[x] Pass Image as parameter to FullScreenView and set to image element source
+[x] File and View menu click actions
+[x] Copy and rename selected photos
+[x] Select, Unselect buttons
+[x] Change photo in fullscreenview and apply change to mainwindow
+[ ] Show selected photos button, in progress
+[x] readme.txt
+
+Fixes:
+[x] New way to change listbox index, old broke for unknown reason
+
+
+Problems:
+[ ] Application is using image files and cannot overwrite. Temp solution: put files in new folder with timestamp
+[ ] Used a lot of time: Listbox with image+combobox template, threads, streaming photos, will instead add functionality
+
+Time spent: 27h (16.3.-2.4.2014)
+Total time spent: 61h
+
+
+15.3.2014 - Version 0.5
+
+Added:
+[x] Menubar - File, Edit, View, Help
+[x] Menubar items & InputGestureText
+[x] Open, Close commands and assigned shortcuts
+[x] Filepath textbox
+
+Fixes:
+[x] Possibility of listbox index to be out of limits after changing folder... again
+
+
+Problems:
+[ ] 1000+ Images takes too much memory + time - possible fix: ignore thumbnails after x photos
+	-wasted too much time with this, find fast work-around
+[ ] 3h Threading tests, didn't work... UI goes unresposive while loading images
+
+Time spent: 14h (13.3.-15.3.2014)
+Total time spent: 34h
+
+
+12.3.2014 - Version 0.4 - Basic functionality done
+
+Added:
+[x] Thumbnails in listbox, selectionchanged -> change big picture
+
+Fixes:
+[x] Modified code to use OOP and simplified MainWindow.xaml.cs
+[x] Cancelling OpenFileDialog is ignored and will not generate error
+[x] Updated WPF form to strech with window size
+[x] Listbox now shows more than one column of photos, depending of listbox width
+[x] thumbnail generation working
+
+Time spent: 13h (8.3-12.3.2014)
+Total time spent: 19h
+
+
+7.3.2014 - Version 0.2
+
+Added:
+[x] Open files and limit only to *.JPG
+[x] Extract folder and insert into folder textfield
+[x] Open selected *.JPG file to imgBig element
+[x] get array of all *.JPG files in selected files folders
+[ ] thumbnail generation, in progress
+
+Time spent: 6h
+

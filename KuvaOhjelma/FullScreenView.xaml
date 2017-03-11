@@ -1,0 +1,15 @@
+﻿<!--*
+    * Windows-ohjelmointi IIO11300 Harjoitustyö
+    * Kuvien selaus ohjelma
+    * 
+    * Copyright: Sami Antila 2014 
+    * Created: 14.3.2014
+    *-->
+<Window x:Class="KuvaOhjelma.FullScreenView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FullScreenView" Height="300" Width="300" WindowStyle="None" Background="black" WindowState="Maximized" KeyDown="imgStageFullScreen_KeyDown" MouseWheel="Window_MouseWheel">
+    <Grid KeyDown="imgStageFullScreen_KeyDown">
+        <Image x:Name="imgStageFullScreen" Source="{Binding}" KeyDown="imgStageFullScreen_KeyDown" MouseLeftButtonDown="imgStageFullScreen_MouseLeftButtonDown" />
+    </Grid>
+</Window>

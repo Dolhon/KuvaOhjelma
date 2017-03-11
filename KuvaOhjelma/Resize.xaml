@@ -1,0 +1,27 @@
+﻿<!--*
+    * Windows-ohjelmointi IIO11300 Harjoitustyö
+    * Kuvien selaus ohjelma
+    * 
+    * Copyright: Sami Antila 2014 
+    * Created: 8.4.2014
+    *-->
+<Window x:Class="KuvaOhjelma.Resize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Resize options" Height="135" Width="194" Background="#FFECECEC">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="5,5,5,5">Image width (px):</TextBlock>
+                <TextBlock x:Name="txtSliderValue" Margin="5,5,5,5">500</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Slider x:Name="sldWidth" Width="173" Maximum="2000" Minimum="50" Margin="5,5,5,5" ValueChanged="sldWidth_ValueChanged" SmallChange="1" Value="500" TickPlacement="BottomRight" LargeChange="50" TickFrequency="100"></Slider>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnAcceptResize"  Margin="20,5,5,5" Content="Accept" Width="60" Click="btnAcceptResize_Click" />
+                <Button x:Name="btnCancelResize"  Margin="20,5,5,5" Content="Cancel" Width="60" Click="btnCancelResize_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
