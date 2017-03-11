@@ -1,7 +1,7 @@
 # KuvaOhjelma
-Photo viewing and choosing application
+Photo viewing and choosing application (2014)
 
-Windows-ohjelmointi IIO11300 Harjoitustyö
+Windows-ohjelmointi IIO11300 Harjoitustyö vuodelta 2014
 
 Tekijä: Sami Antila
 
