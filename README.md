@@ -5,7 +5,7 @@ Windows-ohjelmointi IIO11300 Harjoitustyö vuodelta 2014
 
 Tekijä: Sami Antila
 
-1. Asennus
+## 1. Asennus
 
 	- Pura KuvaOhjelma.zip haluamaasi kansioon
 	- Käynnistä ohjelma avaamalla KuvaOhjelma.exe tiedosto
@@ -16,7 +16,7 @@ Tekijä: Sami Antila
 		- Microsoft .NET Framework 4.5.
 
 
-2. Tietoa ohjelmasta (mitä tekee, miksi etc)
+## 2. Tietoa ohjelmasta (mitä tekee, miksi etc)
 
 	- Toteutetut toiminnalliset vaatimukset
 		- Näytä valokuva (*.JPG)
@@ -72,7 +72,7 @@ Tekijä: Sami Antila
 		
 
 
-3. Kuvaruutukaappaukset tärkeimmistä käyttöliittymistä + lyhyet käytöohjeet jollei "ilmiselvää"
+## 3. Kuvaruutukaappaukset tärkeimmistä käyttöliittymistä + lyhyet käytöohjeet jollei "ilmiselvää"
 
 	- Pikanäppäimet - Pääikkuna
 		- Enter 		– 	Koko näytön tila
@@ -93,7 +93,7 @@ Tekijä: Sami Antila
 	- Käyttöliittymä kuva löytyy tästä kansiosta (gui.JPG)
 
 
-4. Ohjelman tarvitsemat /mukana tulevat tiedostot/tietokannat
+## 4. Ohjelman tarvitsemat /mukana tulevat tiedostot/tietokannat
 
 	- Ohjelman mukana tulee default.JPG, joka on oletus kuva ohjelman avauksessa (ei välttämätön).
 	- Tämä readme.txt tiedosto
@@ -101,7 +101,7 @@ Tekijä: Sami Antila
 	  (ohjelman kansiossa + projektin sisällä)
 
 
-5. Tiedossa olevat ongelmat ja bugit sekä jatkokehitysideat
+## 5. Tiedossa olevat ongelmat ja bugit sekä jatkokehitysideat
 
 	- Ongelmat
 		- Muistin käyttö isoissa kuva kokoelmissa, asian ratkaisu olisi streamata esikatselukuvat suoraan kovalevyltä.
@@ -125,7 +125,7 @@ Tekijä: Sami Antila
 		- Ohjelmassa hiiren 2 valikosta copy kopioi kuvan leikepöydälle
 
 
-6. Toteuttamiseen kulunut aika tunteina yhteensä ja tekijöittäin, mitä opittu, mitkä olivat suurimmat haasteet, mitä kannattaisi tutkia/opiskella lisää jne
+## 6. Toteuttamiseen kulunut aika tunteina yhteensä ja tekijöittäin, mitä opittu, mitkä olivat suurimmat haasteet, mitä kannattaisi tutkia/opiskella lisää jne
 
 	- Kulunut aika kaikkiaan: 71 tuntia (tarkemmat tiedot changelog.txt)
 
